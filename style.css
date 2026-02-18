@@ -1,0 +1,10 @@
+body { 
+    display:flex; /*Gör elementet till en flex-container*/
+    flex-direction:column; 
+    /*Lägger allt i en kolumn (uppifrån och ner).
+(Standard är row, alltså i rad från vänster till höger.)*/
+    align-items:center; 
+}
+canvas { 
+    border:5px solid #b20909; 
+}
