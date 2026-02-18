@@ -1,3 +1,5 @@
+const canvas = document.querySelector("canvas");
+const c = canvas.getContext("2d");
 let x = 190, y = 140;
 // Startposition för fyrkanten (x = vänster/höger, y = upp/ner)
 const size = 20;
